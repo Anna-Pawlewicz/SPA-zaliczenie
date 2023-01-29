@@ -14,8 +14,10 @@
 
     <ul class="container">
       <li v-for="item in getData()" :key="item.id" class="row">
-        <h2>{{ item.nazwa }}</h2>
-        <h3>{{ kwotaPLN(item.cena) }}</h3>        
+        <div class="row">
+          <h2 class="col-md-10">{{ item.nazwa }}</h2>
+          <h3 class="col-md-2">{{ kwotaPLN(item.cena) }}</h3>        
+        </div>
         <img :src="getImgPath(item.obrazek)" :alt="item.nazwa" :title="item.nazwa">
         <button @click="addToCart(item.id)" class="btn-success mt-sm-1">
           Dodaj do koszyka
