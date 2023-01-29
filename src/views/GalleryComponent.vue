@@ -1,11 +1,11 @@
 <template>
   <section>
-    <h1>Menu</h1>
+    <h1 class="text-center">Menu</h1>
     <hr first>
-    <div>
-      <input id="bezgl" type="checkbox" v-model="bezgl" value="bg" /> <label for="bezgl">Bezglutenowe</label>
-      <input id="wege" type="checkbox" v-model="wege" value="wg" /> <label for="wege">Wege</label>
-      <input id="vegan" type="checkbox" v-model="vegan" value="ve" /> <label for="vegan">Vegan</label>
+    <div class="container text-center">
+      <span class="spanSpace"><input id="bezgl" type="checkbox" v-model="bezgl" value="bg" /> <label for="bezgl">Bezglutenowe</label></span>
+      <span class="spanSpace"><input id="wege" type="checkbox" v-model="wege" value="wg" /> <label for="wege">Wege</label></span>
+      <span class="spanSpace"><input id="vegan" type="checkbox" v-model="vegan" value="ve" /> <label for="vegan">Vegan</label></span>
     </div>
     <div style="text-align: end;">
       <span v-if="!loader" >&euro; 1.00 = {{ kwotaPLN(eurPrice) }}</span>
@@ -17,7 +17,7 @@
         <h2>{{ item.nazwa }}</h2>
         <h3>{{ kwotaPLN(item.cena) }}</h3>        
         <img :src="getImgPath(item.obrazek)" :alt="item.nazwa" :title="item.nazwa">
-        <button @click="addToCart(item.id)" class="btn-success">
+        <button @click="addToCart(item.id)" class="btn-success mt-sm-1">
           Dodaj do koszyka
         </button>
         <hr>
@@ -105,4 +105,9 @@ hr {
 hr[first] {
   border-top: 1px solid green;
 }
+.spanSpace {
+  margin-right: 1em;
+  white-space: pre;
+}
+
 </style>
