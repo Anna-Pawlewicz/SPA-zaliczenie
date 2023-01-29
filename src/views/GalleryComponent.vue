@@ -14,7 +14,7 @@
 
     <ul class="container">
       <li v-for="item in getData()" :key="item.id" class="row">
-        <div class="row">
+        <div class="row pt-5">
           <h2 class="col-md-10">{{ item.nazwa }}</h2>
           <h3 class="col-md-2">{{ kwotaPLN(item.cena) }}</h3>        
         </div>
