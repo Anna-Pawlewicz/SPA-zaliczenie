@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "nazwa": "curry z tofu i groszkiem",
+        "cena": 36,
+        "obrazek": "tofu-curry-640.jpg",
+        "bezglutenowe": false,
+        "weganskie": true,
+        "wegetarianskie": true
+    },
+    {
+        "id": 2,
+        "nazwa": "makaron ryżowy z warzywami i sosem orzechowym",
+        "cena": 35,
+        "obrazek": "glass-noodle-640.jpg",
+        "bezglutenowe": true,
+        "weganskie": true,
+        "wegetarianskie": true
+    },
+    {
+        "id": 3,
+        "nazwa": "zupa ziemniaczano-porowa z serem pleśniowym",
+        "cena": 26,
+        "obrazek": "soup-640.jpg",
+        "bezglutenowe": true,
+        "weganskie": false,
+        "wegetarianskie": true
+    },
+    {
+        "id": 4,
+        "nazwa": "placki dyniowo-cukiniowe",
+        "cena": 29,
+        "obrazek": "placki-640.jpg",
+        "bezglutenowe": true,
+        "weganskie": false,
+        "wegetarianskie": true
+    },
+    {
+        "id": 5,
+        "nazwa": "krewetki z mango",
+        "cena": 35,
+        "obrazek": "krewetki-640.jpg",
+        "bezglutenowe": true,
+        "weganskie": false,
+        "wegetarianskie": false
+    },
+    {
+        "id": 6,
+        "nazwa": "łosoś ze szparagami",
+        "cena": 39,
+        "obrazek": "salmon-640.jpg",
+        "bezglutenowe": true,
+        "weganskie": false,
+        "wegetarianskie": false
+    },
+    {
+        "id": 7,
+        "nazwa": "chili con carne",
+        "cena": 33,
+        "obrazek": "chili-con-carne-640.jpg",
+        "bezglutenowe": true,
+        "weganskie": false,
+        "wegetarianskie": false
+    }
+]
