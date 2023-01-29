@@ -17,7 +17,7 @@
         <h2>{{ item.nazwa }}</h2>
         <h3>{{ kwotaPLN(item.cena) }}</h3>        
         <img :src="getImgPath(item.obrazek)" :alt="item.nazwa" :title="item.nazwa">
-        <button @click="addToCart(item.id)">
+        <button @click="addToCart(item.id)" class="btn-success">
           Dodaj do koszyka
         </button>
         <hr>
