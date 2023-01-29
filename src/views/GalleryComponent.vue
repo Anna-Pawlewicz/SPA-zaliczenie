@@ -12,8 +12,8 @@
     </div>
     <p v-if="loader">Pobieram dane...</p>
 
-    <ul>
-      <li v-for="item in getData()" :key="item.id">
+    <ul class="container">
+      <li v-for="item in getData()" :key="item.id" class="row">
         <h2>{{ item.nazwa }}</h2>
         <h3>{{ kwotaPLN(item.cena) }}</h3>        
         <img :src="getImgPath(item.obrazek)" :alt="item.nazwa" :title="item.nazwa">
