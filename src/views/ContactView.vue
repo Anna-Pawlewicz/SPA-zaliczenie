@@ -5,7 +5,7 @@
   <div class="container">
           <div class="row">
             <div class="col-md-4 pr-md-5">
-              <a href="#" class="footer-logo d-block mb-4">Coffee4You</a>
+              <a href="#" class="footer-logo d-block mb-4">Dobry Smak</a>
               <p>Restauracja Dobry Smak, ul.Szeroka&nbsp;22, Szczebrzeszyn, Polska</p>
             </div>
            
